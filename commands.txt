@@ -20,6 +20,12 @@ python manage.py migrate blog	(applies the migratio to db)
 
 python manage.py createsuperuser
 
+python manage.py shell
+
+
+
+QuerySet - list of objects of a given Model
+
 
 
 
@@ -31,3 +37,6 @@ create migrations file
 apply migrations file
 Register models to admin (admin.site.register)
 create superuser
+update urlpattern
+create views
+create templates folder inside app
