@@ -1,0 +1,11 @@
+virtualenv --python=C:\Users\vmundaragi\AppData\Local\Programs\Python\Python36\python.exe venv
+
+python -m pip install --upgrade pip
+
+pip install Django~=2.0.6
+
+pip freeze > requirements.txt
+
+django-admin.exe startproject mysite .
+
+
