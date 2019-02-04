@@ -8,4 +8,26 @@ pip freeze > requirements.txt
 
 django-admin.exe startproject mysite .
 
+python manage.py migrate
 
+python manage.py runserver
+
+python manage.py startapp blog
+
+python manage.py makemigrations blog	(creates a migration file under migrations directory)
+
+python manage.py migrate blog	(applies the migratio to db)
+
+python manage.py createsuperuser
+
+
+
+
+start project 
+create app
+include the app in settings file
+define models
+create migrations file
+apply migrations file
+Register models to admin (admin.site.register)
+create superuser
