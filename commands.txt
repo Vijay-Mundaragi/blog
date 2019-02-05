@@ -26,6 +26,7 @@ python manage.py shell
 QuerySet - list of objects of a given Model
 
 
+
 start project 
 create app
 include the app in settings file
@@ -37,8 +38,6 @@ create superuser
 update urlpattern
 create views
 create templates folder inside app
-
-
 
 
 create a link in UI.

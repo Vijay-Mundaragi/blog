@@ -1,0 +1,5 @@
+Readers can comment on Posts.
+Blog owner can approve/ delete the comments.
+
+Number of comments shown is only no of approved comments.
+
